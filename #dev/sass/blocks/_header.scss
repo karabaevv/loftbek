@@ -1,24 +1,58 @@
 .header {
-    background-color: #000;
+  background-color: #000;
+  display: flex;
+  color: #fff;
+  padding: 15px 0;
+
+  &__wrapper {
     display: flex;
-    color: #fff;
-    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    &__wrapper {
-        display: flex;
-    }
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+  }
 
-    &__btn {
-        display: flex;
-        align-items: center;
-        border: 1px solid white;
-        padding: 6px 15px;
-        gap: 20px;
-        margin-left: 43px;
+  &__btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 6px 15px;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+
+    a {
+      &:last-child {
         font-weight: 600;
         font-size: 18px;
         text-transform: uppercase;
         text-align: center;
-
+        border: 1px solid #fff;
+        padding: 9px 11px;
+      }
     }
+  }
+}
+
+.header__wrapper {
+  ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
 }
