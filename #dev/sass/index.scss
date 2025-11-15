@@ -1,12 +1,13 @@
 @import "core/default";
 @import "base/font";
 
-
 @import "blocks/header";
+@import "blocks/hero";
+@import "blocks/projects";
+@import "blocks/popular";
 
-
-@import 'adaptive/xl';
-@import 'adaptive/lg';
-@import 'adaptive/md';
-@import 'adaptive/sm';
-@import 'adaptive/xs';
+@import "adaptive/xl";
+@import "adaptive/lg";
+@import "adaptive/md";
+@import "adaptive/sm";
+@import "adaptive/xs";

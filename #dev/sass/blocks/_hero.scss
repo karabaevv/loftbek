@@ -1,5 +1,38 @@
-.hero__wrapper {
-  background-image: url("hero.png");
+.hero_wrapper {
+  position: relative;
+  display: inline-block;
   background-repeat: no-repeat;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero__text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+  }
+}
+
+.hero {
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
+  height: calc(100vh - 84px);
+  width: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.hero__text {
+  h2 {
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 51px 51px;
+  }
 }
