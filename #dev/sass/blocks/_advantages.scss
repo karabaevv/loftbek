@@ -1,0 +1,37 @@
+.advantage__card {
+  display: flex;
+}
+
+.advantage {
+  background: black;
+  padding: 86px 120px;
+  margin-bottom: 155px;
+}
+
+.advantage-inner {
+  background: #fff;
+  padding: 51px 20px 63px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+
+  img {
+    margin-bottom: 28px;
+  }
+}
+
+.advantage__wrapper {
+  h2 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 89px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+  }
+}

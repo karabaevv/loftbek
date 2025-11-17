@@ -1,32 +1,17 @@
-.col-lg-3 {
-  h4 {
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 18px;
-  }
-
-  s {
-    font-weight: 500;
-    font-size: 18px;
-    color: #828282;
-    margin-top: 8px;
-  }
-  p {
-    font-weight: 500;
-    font-size: 20px;
-    color: #cd0200;
-    margin-top: 7px;
-  }
-}
-
-.popular-text {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 33px;
-
-  h2 {
-    font-weight: 600;
-    font-size: 34px;
+.products {
+  .col-lg-3 {
+    s {
+      font-weight: 500;
+      font-size: 18px;
+      color: #828282;
+      margin-top: 8px;
+      display: block;
+    }
+    p {
+      font-weight: 500;
+      font-size: 20px;
+      color: #cd0200;
+      margin-top: 7px;
+    }
   }
 }
