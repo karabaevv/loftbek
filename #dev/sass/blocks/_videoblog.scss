@@ -1,0 +1,33 @@
+.videoblog {
+  background: #000;
+  padding: 86px 0 120px;
+  h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 68px;
+  }
+
+  .videoblog__wrapper {
+    h3 {
+      font-weight: 600;
+      font-size: 22px;
+      text-transform: uppercase;
+      color: #fff;
+      margin-top: 32px;
+    }
+  }
+
+  .videoblog__btn {
+    a {
+      color: #fff;
+      border: 1px solid white;
+      padding: 19px 34px;
+      margin-top: 40px;
+    }
+  }
+
+  
+}

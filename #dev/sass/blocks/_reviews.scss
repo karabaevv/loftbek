@@ -1,0 +1,27 @@
+.reviews {
+  background: #000;
+  padding-bottom: 105px;
+  h2 {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 62px;
+  }
+  &__card-image {
+    display: flex;
+    gap: 17px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 14px;
+  }
+
+  p {
+    margin-top: 29px;
+  }
+
+  .reviews__inner {
+    background: #fff;
+    padding: 21px 14px 28px;
+  }
+}
