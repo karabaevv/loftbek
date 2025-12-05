@@ -1,0 +1,28 @@
+.address {
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 63px 0 80px;
+  }
+  &__wrapper {
+    background: #f5f5f5;
+    padding: 30px 25px;
+    margin-bottom: 80px;
+  }
+  ul {
+    li {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 36px;
+
+      h3 {
+        margin-top: 7px;
+      }
+      span {
+        margin-top: 7px;
+      }
+    }
+  }
+}

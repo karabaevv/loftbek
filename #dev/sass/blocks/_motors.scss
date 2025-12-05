@@ -1,0 +1,51 @@
+.dmc-motors {
+  background-color: #000;
+  padding: 0 222x 0 222px;
+}
+
+.motors__txt {
+  h1 {
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+    padding-top: 121px;
+    max-width: 808px;
+    margin: 0 auto;
+  }
+
+  span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #bdbdbd;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 25px 0;
+  }
+}
+.motors__inner {
+  display: flex;
+  justify-content: center;
+  max-width: 808px;
+  margin: 0 auto;
+}
+
+.motors__wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 54px 0 66px 0;
+  max-width: 968px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.motors-txt {
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+  }
+}

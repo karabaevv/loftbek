@@ -42,7 +42,7 @@ const html = () => {
 }
 
 const bundle_css = () => {
-  return src(['node_modules/bootstrap/dist/css/bootstrap-grid.css', 'node_modules/swiper/swiper-bundle.min.css'])
+  return src(['node_modules/bootstrap/dist/css/bootstrap.min.css', 'node_modules/swiper/swiper-bundle.min.css'])
     .pipe(concat('bundle.css'))
     .pipe(csso())
     .pipe(dest(`${build}/css`))
@@ -50,7 +50,7 @@ const bundle_css = () => {
 }
 
 const bundle_js = () => {
-  return src(['node_modules/gsap/dist/gsap.js', 'node_modules/swiper/swiper-bundle.min.js'])
+  return src(['node_modules/gsap/dist/gsap.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/swiper/swiper-bundle.min.js'])
     .pipe(concat('bundle.js'))
     .pipe(uglify())
     .pipe(dest(`${build}/js`))

@@ -1,0 +1,38 @@
+.partners {
+  &-page-img {
+    position: relative;
+    margin-top: 59px;
+  }
+  &__txt {
+    position: absolute;
+    top: 50%;
+    left: 56px;
+    transform: translateY(-50%);
+
+    h2 {
+      font-weight: 600;
+      font-size: 30px;
+      text-transform: uppercase;
+      text-align: left !important;
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      color: #fff;
+      max-width: 808px;
+      margin-bottom: 37px;
+    }
+
+    a {
+      font-weight: 500;
+      font-size: 16px;
+      text-transform: uppercase;
+      padding: 20px 47px;
+      background-color: #fff;
+    }
+  }
+}
