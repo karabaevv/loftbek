@@ -17,7 +17,6 @@
 }
 
 .hero {
-  background-image: url("../img/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,4 +34,14 @@
     color: #fff;
     margin: 0 0 51px 51px;
   }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
 }
