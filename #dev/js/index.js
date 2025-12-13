@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const heroSwiper = new Swiper(".mySwiper", {
+  const heroSwiper = new Swiper(".heroSwiper", {
     loop: true,
     speed: 500,
     effect: "fade",
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
 
-  const swiper = new Swiper(".popularSwiper", {
+  const popularSwiperswiper = new Swiper(".popularSwiper", {
     slidesPerView: 4,
     spaceBetween: 32,
     navigation: {
@@ -25,6 +25,25 @@ document.addEventListener("DOMContentLoaded", () => {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+  });
+
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+  const swiper2 = new Swiper(".mySwiper2", {
+    loop: true,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiper,
     },
   });
 });
